@@ -1,0 +1,34 @@
+[project]
+name = 'Tokenized-Commercial-Real-Estate-Debt'
+description = ''
+authors = []
+telemetry = true
+cache_dir = './.cache'
+requirements = []
+[contracts.default-management]
+path = 'contracts/default-management.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.loan-securitization]
+path = 'contracts/loan-securitization.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.payment-distribution]
+path = 'contracts/payment-distribution.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.property-verification]
+path = 'contracts/property-verification.clar'
+clarity_version = 2
+epoch = 2.5
+[repl.analysis]
+passes = ['check_checker']
+
+[repl.analysis.check_checker]
+strict = false
+trusted_sender = false
+trusted_caller = false
+callee_filter = false
