@@ -11,3 +11,7 @@ S
 #contracts/payment-distribution.clar,7/c/7c9c5b9edb02db62b37e3bf02bea002e8433cb10
 R
 "tests/payment-distribution.test.ts,c/7/c702b4ade487fc5a6ba210259bfdb29b5670ffaf
+T
+$contracts/property-verification.clar,9/2/92aedc8494904be11f2c1570671ab7c7affd1770
+S
+#tests/property-verification.test.ts,2/4/24ed03513bc4144786f1838c91c7ee0e72c40d8a
